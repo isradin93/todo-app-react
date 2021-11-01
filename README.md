@@ -1,3 +1,3 @@
 # Todo app
 
-## Live preview: <https://isradin93.github.io/todo-app-react/>
+## Live preview: <https://elated-minsky-6ed13a.netlify.app/>
