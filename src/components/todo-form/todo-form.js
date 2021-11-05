@@ -33,10 +33,11 @@ const TodoForm = (props) => {
     };
 
     return (
-        <form onSubmit={handleSubmit} className='todo-form'>
+        <form autoComplete="off" onSubmit={handleSubmit} className='todo-form'>
             {props.edit ? (
                 <>
                     <input
+                        autoComplete="off"
                         placeholder='Update your item'
                         value={input}
                         onChange={handleChange}
